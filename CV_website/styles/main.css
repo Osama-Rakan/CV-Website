@@ -1,0 +1,120 @@
+main {
+  color: white;
+  top: 0rem;
+  left: 0rem;
+  right: 0rem;
+  height: 25rem;
+  font-size: 1.6rem;
+}
+
+.title {
+  margin-top: 0.8rem;
+  font-weight: bold;
+}
+
+.summary-container {
+  display: flex;
+}
+
+.personal-photo {
+  width: 20rem;
+}
+
+.general-info-container {
+  width: 45rem;
+  margin-left: 1rem;
+  flex-shrink: 0;
+}
+
+
+.Khawar,
+.ezmiat {
+  cursor: pointer;
+}
+
+.Khawar {
+  color: #E49D23;
+}
+
+.ezmiat {
+  color: #02A9F7;
+}
+
+
+.background-video-container {
+  margin-left: 20rem;
+}
+
+.background-video {
+  height: 20rem;
+}
+
+/*.all-language-container */
+.all-summary-container,
+.all-work-ex-container,
+.all-education-container {
+  border-bottom-style: solid;
+}
+
+.work-ex-container,
+.education-container,
+.language-container {
+  margin-top: 1rem;
+  display: flex;
+  margin-bottom: 2.5rem;
+}
+
+.logo-container {
+  width: 7rem;
+  flex-shrink: 0;
+}
+
+.logo {
+  width: 100%;
+  cursor: pointer;
+}
+
+.experience-text-container,
+.education-text-container,
+.language-text-container {
+  margin-left: 0.6rem;
+  flex-shrink: 0;
+}
+
+.work,
+.degree {
+  margin-bottom: 0.5rem;
+}
+
+.country {
+  margin-top: 0.3rem;
+}
+
+.date,
+.skills,
+.country,
+.GPA,
+.certificate,
+.id {
+  margin-bottom: 0rem;
+  font-size: 1rem;
+}
+
+
+.skills {
+  margin-top: 0.3rem;
+}
+
+.language {
+  margin-bottom: 0.2rem;
+}
+
+.ar-logo {
+  width: 100%;
+}
+
+.level {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  font-size: 1rem;
+}
